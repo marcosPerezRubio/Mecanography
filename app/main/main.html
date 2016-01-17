@@ -1,0 +1,19 @@
+<sidebar></sidebar>
+<div id="container" class="jumbotron">
+	  <h1>Lesson {{currentSelected}}!</h1>
+
+		<h5>Pulsaciones totales: {{total}}</h5>
+		<h5>Fallos: {{misses}}</h5>
+		<h5>Time: {{time}}</h5>
+
+		<div id="exContainer">
+		<div class="mainEx" ng-repeat-start="item in currentLesson" ng-if="$first" >
+			 {{item}}
+		</div>
+		<div class="exercise" ng-repeat-end ng-if="!$first">
+			{{item}}
+		</div>
+
+		</div>
+
+</div>

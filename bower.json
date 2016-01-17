@@ -1,0 +1,30 @@
+{
+  "name": "mecanography",
+  "description": "A minimal mecanography application",
+  "main": "main.js",
+  "authors": [
+    "GitHub"
+  ],
+  "license": "CC0-1.0",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "homepage": "https://github.com/marcosPerezRubio/Mecanography",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "ui-router#~0.2.15",
+    "angular": "~1.4.8",
+    "bootstrap": "~3.3.6"
+  }
+}

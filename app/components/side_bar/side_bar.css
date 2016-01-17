@@ -1,0 +1,19 @@
+#sidebar{
+    width: 30%;
+    height: 92vh;
+    float: left;
+    background-color: #0CBFE8;
+}
+
+li{
+    list-style: none;
+}
+.sidebarItem{
+    font-size: 2vh;
+    text-align: center;
+
+}
+
+.sidebarItem:hover{
+    background-color: #0D92FF;
+}

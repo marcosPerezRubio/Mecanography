@@ -1,0 +1,27 @@
+#mainbar{
+    height:8vh;
+    width: 100vw;
+    display:inline-block;
+    background-color: #00FFEA;
+    -webkit-app-region: drag;
+}
+
+#title{
+    width: auto;
+    height: 100%;
+    float:left;
+    font-size: 6vh;
+
+}
+
+#buttonContainer{
+    float:right;
+    width:auto;
+
+}
+
+.button.glyphicon{
+    width: auto;
+    font-size: 7vh;
+}
+

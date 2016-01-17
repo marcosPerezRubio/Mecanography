@@ -1,13 +1,36 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
+
+<head>
+  <title>Mecanography</title>
+</head>
+
+<!-- CSS -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="app/main/main.css" />
+<link rel="stylesheet" href="app/components/main_bar/main_bar.css" />
+<link rel="stylesheet" href="app/components/side_bar/side_bar.css" />
+
+
+<body ng-app="mecanography">
+
+<div ng-include="'app/components/main_bar/main_bar.html'"></div>
+
+<!--<div ng-include="'components/side_bar/side_bar.html'"></div>-->
+
+<section ui-view></section>
+
+<!-- SCRIPTS -->
+
+<!-- components -->
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<!-- app -->
+<script src="app/app.js"></script>
+<script src="app/main/main.js"></script>
+<script src="app/main/main.controller.js"></script>
+<script src="app/services/LessonService.js"></script>
+<script src="app/services/SidebarDirective.js"></script>
+
+</body>
 </html>
