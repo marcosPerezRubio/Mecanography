@@ -26,6 +26,7 @@
     "electron-packager": "^5.2.0",
     "electron-prebuilt": "^0.36.0",
     "grunt-browserify": "^4.0.1",
+    "grunt-cli": "^1.1.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-electron-installer": "^1.2.0",
     "grunt-shell": "^1.1.2",

@@ -1,9 +1,11 @@
 <sidebar></sidebar>
-<div id="container" class="jumbotron">
+<div id="container" class="jumbotron" ng-keydown="keyPress($event);" tabindex="0">
 	  <h1>Lesson {{currentSelected}}!</h1>
 
-		<h5>Pulsaciones totales: {{total}}</h5>
-		<h5>Fallos: {{misses}}</h5>
+		<div id="board" style="border:1px solid"></div>
+
+		<h5>Pulsaciones totales: {{currentGame.totalKeyPress}}</h5>
+		<h5>Fallos: {{currentGame.fails}}</h5>
 		<h5>Time: {{time}}</h5>
 
 		<div id="exContainer">

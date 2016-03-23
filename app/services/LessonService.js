@@ -3,10 +3,18 @@ angular.module('mecanography')
 
     var service = this;
 
+    service.game = {
+
+
+    };
 
     service.getLessons = function () {
         return $http.get('lessons/lessons.json');
     };
+
+
+
+
 
 
 });
