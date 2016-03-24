@@ -2,7 +2,7 @@
  * Created by marcos on 24/03/2016.
  */
 
-var ipc = require('ipc');
+var ipc = require("electron").ipcRenderer;
 
 angular.module('mecanography')
     .directive('mainbar', function ($rootScope) {

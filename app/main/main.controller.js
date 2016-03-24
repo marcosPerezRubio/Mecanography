@@ -144,6 +144,7 @@ angular.module('mecanography').controller('MainCtrl', ['$scope', '$http', 'listO
             $scope.currentLesson = $scope.currentGame.nextLesson();
             $scope.currentSelected = $scope.currentGame.getSelected();
             $scope.time= 0;
+            this.first=true;
             document.getElementById("board").innerHTML = $scope.currentLesson.getHtml();
         }
 

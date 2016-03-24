@@ -1,6 +1,6 @@
 #mainbar{
-    height:8vh;
     width: 100vw;
+    height:8vh;
     -webkit-app-region: drag;
     color: #fff;
     background-color: #337ab7;
@@ -16,11 +16,17 @@
 #buttonContainer{
     -webkit-app-region: no-drag;
     float:right;
+    height:8vh;
     width:auto;
 }
 
-.button.glyphicon{
-    width: auto;
-    font-size: 7vh;
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 
+.responsiveButton{
+    height:7vh;
+    font-size: 3vh;
+}
