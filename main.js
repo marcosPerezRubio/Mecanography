@@ -6,6 +6,9 @@ const app = electron.app;
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
+const ipcMain = electron.ipcMain;
+
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 var mainWindow;
@@ -16,7 +19,6 @@ function createWindow() {
 
     // and load the index.html of the app.
     mainWindow.loadURL('file://' + __dirname + '/index.html');
-
 
     // Open the DevTools.
     //mainWindow.webContents.openDevTools();
@@ -42,6 +44,18 @@ app.on('window-all-closed', function () {
         app.quit();
     }
 });
+
+
+ipcMain.on('quit',function(){
+    app.quit();
+});
+
+ipcMain.on('minimize',function(){
+    mainWindow.minimize();
+});
+
+
+
 
 app.on('activate', function () {
     // On OS X it's common to re-create a window in the app when the

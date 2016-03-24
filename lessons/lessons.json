@@ -3,7 +3,7 @@
     {
       "number": 1,
       "name": "lesson01",
-      "exercices": [
+      "exercises": [
         "ffff jjjj ffff jjjj ffff jjjj ffff jjjj ffff",
         "ffjj jjff ffjj jjff jjff ffjj ffjj ffjj ffjj",
         "fjfj fjfj fjfj fjfj jfjf jfjf jfjf jfjf jfjf"
@@ -12,7 +12,7 @@
     {
       "number": 2,
       "name": "lesson03",
-      "exercices": [
+      "exercises": [
         "ssss llll ssss llll ssss llll ssss llll ssss",
         "llll ssss llll ssss llll ssss ssss llll ssss",
         "ssll ssll ssll ssll ssll llss llss llss llss",
@@ -26,7 +26,7 @@
     {
       "number": 3,
       "name": "lesson02",
-      "exercices": [
+      "exercises": [
         "dddd kkkk dddd kkkk dddd kkkk dddd kkkk dddd",
         "kkkk dddd kkkk dddd kkkk dddd kkkk dddd kkkk",
         "ffff jjjj ffff jjjj kkjj ffdd kkjj ddff ddkk",
@@ -37,7 +37,7 @@
     {
       "number": 4,
       "name": "lesson07",
-      "exercices": [
+      "exercises": [
         "eeee iiii eeee iiii eeee iiii eeee iiii eeee",
         "iiii eeee iiii eeee iiii eeee iiii eeee iiii",
         "eeii eeii eeii eeii eeii eeii eeii eeii eeii",
@@ -53,7 +53,7 @@
     {
       "number": 5,
       "name": "lesson08",
-      "exercices": [
+      "exercises": [
         "wwww oooo wwww oooo wwww oooo wwww oooo wwww",
         "oooo wwww oooo wwww oooo wwww oooo wwww oooo",
         "wwoo wwoo wwoo wwoo wwoo wwoo wwoo wwoo wwoo",
@@ -67,7 +67,7 @@
     {
       "number": 6,
       "name": "lesson05",
-      "exercices": [
+      "exercises": [
         "gggg hhhh gggg hhhh gggg hhhh gggg hhhh gggg",
         "hhhh gggg hhhh gggg hhhh gggg hhhh gggg hhhh",
         "agag agag agag agag agag agag agag agag agag",
@@ -81,7 +81,7 @@
     {
       "number": 7,
       "name": "lesson11",
-      "exercices": [
+      "exercises": [
         "cccc ,,,, cccc ,,,, cccc ,,,, cccc ,,,, cccc",
         ",,,, cccc ,,,, cccc ,,,, cccc ,,,, cccc ,,,,",
         "cc,, cc,, cc,, cc,, cc,, cc,, cc,, cc,, cc,,",
@@ -95,7 +95,7 @@
     {
       "number": 8,
       "name": "lesson09",
-      "exercices": [
+      "exercises": [
         "qqqq pppp qqqq pppp qqqq pppp qqqq pppp qqqq",
         "pppp qqqq pppp pppp qqqq pppp pppp qqqq pppp",
         "qqpp qqpp qqpp qqpp qqpp qqpp qqpp qqpp qqpp",
@@ -108,7 +108,7 @@
     {
       "number": 9,
       "name": "lesson04",
-      "exercices": [
+      "exercises": [
         "aaaa ññññ aaaa ññññ aaaa ññññ aaaa ññññ aaaa",
         "ññññ aaaa ññññ aaaa ññññ aaaa ññññ aaaa ññññ",
         "aaññ aaññ aaññ aaññ aaññ aaññ aaññ aaññ aaññ",
@@ -127,7 +127,7 @@
     {
       "number": 10,
       "name": "lesson06",
-      "exercices": [
+      "exercises": [
         "rrrr uuuu rrrr uuuu rrrr uuuu rrrr uuuu rrrr",
         "uuuu rrrr uuuu rrrr uuuu rrrr uuuu rrrr uuuu",
         "uurr uurr uurr uurr uurr uurr uurr uurr uurr",
@@ -142,7 +142,7 @@
     {
       "number": 11,
       "name": "lesson10",
-      "exercices": [
+      "exercises": [
         "vvvv mmmm vvvv mmmm vvvv mmmm vvvv mmmm vvvv",
         "mmmm vvvv mmmm vvvv mmmm vvvv mmmm vvvv mmmm",
         "vvmm vvmm vvmm vvmm vvmm vvmm vvmm vvmm vvmm",
@@ -156,7 +156,7 @@
     {
       "number": 12,
       "name": "lesson13",
-      "exercices": [
+      "exercises": [
         "zzzz //// zzzz //// zzzz //// zzzz //// zzzz",
         "//// zzzz //// zzzz //// zzzz //// zzzz ////",
         "zz// zz// zz// zz// zz// zz// zz// zz// zz//",
@@ -168,7 +168,7 @@
     {
       "number": 13,
       "name": "lesson14",
-      "exercices": [
+      "exercises": [
         "drop down used from who is remove to dump.",
         "a low hill of the sea or on the load wide",
         "drop down used from who is remove to dump.",
@@ -183,7 +183,7 @@
     {
       "number": 14,
       "name": "lesson15",
-      "exercices": [
+      "exercises": [
         "tttt yyyy tttt yyyy tttt yyyy tttt yyyy tttt yyyy",
         "ttyy ttyy yytt yytt ttyy ttyy yytt yytt ttyy ttyy",
         "tyty tyty ttyy tyty tyty ttyy ytyt ytyt ttyy yytt",
@@ -197,14 +197,14 @@
     {
       "number": 15,
       "name": "lesson16",
-      "exercices": [
+      "exercises": [
         "nnnn bbbb nnnn bbbb nnnn bbbb nnnn bbbb nnnn bbbb"
       ]
     },
     {
       "number": 16,
       "name": "lesson12",
-      "exercices": [
+      "exercises": [
         "xxxx .... xxxx .... xxxx .... xxxx .... xxxx",
         ".... xxxx .... xxxx .... xxxx .... xxxx ....",
         "xx.. xx.. xx.. xx.. xx.. xx.. xx.. xx.. xx..",
@@ -216,7 +216,7 @@
     {
       "number": 17,
       "name": "lesson29",
-      "exercices": [
+      "exercises": [
         "4444 7777 4444 7777 4444 7777 4444 7777 4444 7777",
         "4477 4477 4477 4477 4477 4477 4477 4477 4477 4477",
         "7744 7744 7744 7744 7744 7744 7744 7744 7744 7744",
@@ -228,7 +228,7 @@
     {
       "number": 18,
       "name": "lesson31",
-      "exercices": [
+      "exercises": [
         "2222 9999 2222 9999 2222 9999 2222 9999 2222 9999",
         "9999 2222 9999 2222 9999 2222 9999 2222 9999 2222",
         "2299 2299 2299 2299 2299 2299 2299 2299 2299 2299",
@@ -241,7 +241,7 @@
     {
       "number": 19,
       "name": "lesson30",
-      "exercices": [
+      "exercises": [
         "3333 8888 3333 8888 3333 8888 3333 8888 3333 8888 ",
         "3388 3388 3388 3388 3388 3388 3388 3388 3388 3388",
         "8833 8833 8833 8833 8833 8833 8833 8833 8833 8833",
@@ -254,7 +254,7 @@
     {
       "number": 20,
       "name": "lesson32",
-      "exercices": [
+      "exercises": [
         "1111 0000 1111 0000 1111 0000 1111 0000 1111",
         "0000 1111 0000 1111 0000 1111 0000 1111 0000",
         "1100 1100 1100 1100 1100 1100 1100 1100 1100",
@@ -265,7 +265,7 @@
     {
       "number": 21,
       "name": "lesson33",
-      "exercices": [
+      "exercises": [
         "5555 7777 5555 7777 5555 7777 5555 7777 5555",
         "7777 5555 7777 5555 7777 5555 7777 5555 7777",
         "5577 7755 5577 7755 5577 7755 5577 7755 5577",
@@ -278,7 +278,7 @@
     {
       "number": 22,
       "name": "lesson35",
-      "exercices": [
+      "exercises": [
         "++++ (((( ++++ (((( ++++ (((( ++++ (((( ++++",
         "(((( ++++ (((( ++++ (((( ++++ (((( ++++ ((((",
         "++(( ++(( ++(( ++(( ++(( ++(( ++(( ++(( ++((",
@@ -289,7 +289,7 @@
     {
       "number": 23,
       "name": "lesson34",
-      "exercices": [
+      "exercises": [
         "!!!! ==== !!!! ==== !!!! ==== !!!! ==== !!!!",
         "==== !!!! ==== !!!! ==== !!!! ==== !!!! ====",
         "!!== !!== !!== !!== !!== !!== !!== !!== !!==",
@@ -300,7 +300,7 @@
     {
       "number": 24,
       "name": "lesson37",
-      "exercices": [
+      "exercises": [
         "'''' %%%% //// '''' %%%% //// '''' %%%% ////",
         "//// %%%% '''' //// %%%% '''' //// %%%% '''' ",
         "/%1/ /%1/ /%1/ /%1/ /%1/ /%1/ /%1/ /%1/ /%1/"
@@ -309,7 +309,7 @@
     {
       "number": 25,
       "name": "lesson36",
-      "exercices": [
+      "exercises": [
         "\"\"\"\" )))) \"\"\"\" )))) \"\"\"\" )))) \"\"\"\" )))) \"\"\"\"",
         ")))) \"\"\"\" )))) \"\"\"\" )))) \"\"\"\" )))) \"\"\"\" ))))",
         "\"\")) \"\")) \"\")) \"\")) \"\")) \"\")) \"\")) \"\")) \"\"))",
@@ -319,7 +319,7 @@
     {
       "number": 26,
       "name": "lesson39",
-      "exercices": [
+      "exercises": [
         "@@@@ {{{{ }}}} @@@@ {{{{ }}}} @@@@ {{{{ }}}}",
         "{{{{ }}}} @@@@ {{{{ }}}} @@@@ {{{{ }}}} @@@@",
         "{{@@}} {{@@}} {{@@}} {{@@}} {{@@}} {{@@}}"
@@ -328,7 +328,7 @@
     {
       "number": 27,
       "name": "lesson38",
-      "exercices": [
+      "exercises": [
         "[[[[ ]]]] $$$$ [[[[ ]]]] $$$$ [[[[ ]]]] $$$$",
         "]]]] [[[[ $$$$ ]]]] [[[[ $$$$ ]]]] [[[[ $$$$",
         "[[$$]] [[$$]] [[$$]] [[$$]] [[$$]] [[$$]]"
@@ -337,7 +337,7 @@
     {
       "number": 28,
       "name": "lesson40",
-      "exercices": [
+      "exercises": [
         "**** ```` ~~~~ **** ```` ~~~~ **** ```` ~~~~",
         "```` **** ~~~~ ```` **** ~~~~ ```` **** ~~~~",
         "``**~~ ``**~~ ``**~~ ``**~~ ``**~~ ``**~~ "
@@ -346,7 +346,7 @@
     {
       "number": 29,
       "name": "lesson41",
-      "exercices": [
+      "exercises": [
         "^^^^ #### &&&& ^^^^ #### &&&& ^^^^ #### &&&&",
         "&&&& #### ^^^^ &&&& #### ^^^^ &&&& #### ^^^^",
         "##&&^^ ##&&^^ ##&&^^ ##&&^^ ##&&^^ ##&&^^"
@@ -355,7 +355,7 @@
     {
       "number": 30,
       "name": "lesson42",
-      "exercices": [
+      "exercises": [
         "<<<< >>>> ññññ <<<< >>>> ññññ <<<< >>>> ññññ",
         "ññññ >>>> <<<< ññññ >>>> <<<< ññññ >>>> <<<<",
         "<<ññ>> <<ññ>> <<ññ>> <<ññ>> <<ññ>> <<ññ>>"

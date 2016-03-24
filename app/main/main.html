@@ -1,10 +1,54 @@
+
 <sidebar></sidebar>
-<div id="container" class="jumbotron" ng-keydown="keyPress($event);" tabindex="0">
-	  <h1>Lesson {{currentSelected}}!</h1>
 
-		<div id="board" style="border:1px solid"></div>
+<div id="container" ng-keydown="keyPress($event);" tabindex="0">
 
-		<h5>Pulsaciones totales: {{currentGame.totalKeyPress}}</h5>
-		<h5>Fallos: {{currentGame.fails}}</h5>
-		<h5>Time: {{time}}</h5>
+    <div class="row">
+        <h1 class="title text-primary">Lesson {{currentSelected}}</h1>
+    </div>
+
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th >
+                <p>Pulsaciones totales: </p>
+            </th>
+            <th >
+                <p>Fallos: </p>
+            </th>
+            <th >
+                <p> Time: </p>
+            </th>
+        </tr>
+        </thead>
+
+        <tr>
+            <td >
+                <p>{{currentLesson.totalKeyPress}}</p>
+            </td>
+
+            <td >
+                <p> {{currentLesson.fails}}</p>
+            </td>
+
+            <td >
+                <p> {{time}} </p>
+            </td>
+        </tr>
+
+
+        <tr>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped active" role="progressbar"
+                     aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" ng-style="{width : ( currentLesson.percentage + '%' ) }">
+                    {{currentLesson.percentage}}%
+                </div>
+            </div>
+        </tr>
+    </table>
+
+    <button type="button" ng-show="currentLesson.finish" class="btn btn-primary btn-success btn-block"  ng-click="nextLesson()">Next lesson </button>
+
+    <div id="board" class="text-center text-center "></div>
 </div>

@@ -8,7 +8,7 @@ angular.module('mecanography')
 
         LessonService.getLessons().then(function(data){
             var qtyOfLessons = data.data.lessons.length;
-            for(var i = 0; i < qtyOfLessons; ++i){
+            for(var i = 0; i <  qtyOfLessons; ++i){
                 service.addSidebarItem(i);
             }
         });

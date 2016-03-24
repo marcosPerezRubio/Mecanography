@@ -8,6 +8,10 @@
 	font-size: 4vw;
 }
 
+.title{
+	text-align: center;
+}
+
 .exercise {
 	font-size: 2vw;
 }
@@ -17,7 +21,7 @@
 }
 
 body{
-	overflow: hidden;
+	display: inline-block;
 }
 
 

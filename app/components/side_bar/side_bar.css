@@ -2,18 +2,18 @@
     width: 30%;
     height: 92vh;
     float: left;
-    background-color: #0CBFE8;
+    overflow: scroll;
 }
 
 li{
     list-style: none;
 }
+
 .sidebarItem{
     font-size: 2vh;
     text-align: center;
-
 }
 
 .sidebarItem:hover{
-    background-color: #0D92FF;
+    background-color: #76C7D7;
 }

@@ -1,9 +1,9 @@
 #mainbar{
     height:8vh;
     width: 100vw;
-    display:inline-block;
-    background-color: #00FFEA;
     -webkit-app-region: drag;
+    color: #fff;
+    background-color: #337ab7;
 }
 
 #title{
@@ -11,13 +11,12 @@
     height: 100%;
     float:left;
     font-size: 6vh;
-
 }
 
 #buttonContainer{
+    -webkit-app-region: no-drag;
     float:right;
     width:auto;
-
 }
 
 .button.glyphicon{
