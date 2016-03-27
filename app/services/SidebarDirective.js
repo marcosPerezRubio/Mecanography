@@ -4,30 +4,35 @@ angular.module('mecanography')
         var service = this;
 
         // on startup, no menu items are defined. Modules can use addSidebar to add their sidebaritems
-        service.sidebarItems= [];
 
+
+        service.sidebarLessonItems= [];
         LessonService.getLessons().then(function(data){
             var qtyOfLessons = data.data.lessons.length;
             for(var i = 0; i <  qtyOfLessons; ++i){
-                service.addSidebarItem(i);
+                service.addSidebarLessonItems(i);
             }
         });
 
         // remove all menu bar items
-        service.clearSidebarItems = function() {
-            service.sidebarItems= [];
+        service.clearSidebarLessonItems = function() {
+            service.sidebarLessonItems= [];
         };
 
         // add a menu item
-        service.addSidebarItem = function(item) {
-
-            service.sidebarItems.push(item);
-
+        service.addSidebarLessonItems = function(item) {
+            service.sidebarLessonItems.push(item);
             // sort by order parameter
-            service.sidebarItems.sort(function (a, b) {
+            service.sidebarLessonItems.sort(function (a, b) {
                 return (a > b) ? 1 : ((b > a) ? -1 : 0);
             });
         };
+
+
+        service.sidebarMainItems = [];
+
+
+
     })
     .directive('sidebar', function ($rootScope) {
         return {
@@ -38,6 +43,7 @@ angular.module('mecanography')
             controller: function ($scope, SidebarService) {
 
                 $scope.sidebarItemService = SidebarService;
+
 
                 $scope.updateLesson = function(item){
                     console.log(item);

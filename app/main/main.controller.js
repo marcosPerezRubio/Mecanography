@@ -62,7 +62,7 @@ angular.module('mecanography').controller('MainCtrl', ['$scope', '$http', 'listO
             console.log('CE IS ' + this.currentExercise);
             console.log('CHAR AT 0 IS ' + this.currentExercise.charAt(0));
             ++this.totalKeyPress;
-            if (this.currentExercise.charAt(0).toUpperCase() == char) {
+            if (this.currentExercise.charAt(0).toLowerCase() == char.toLowerCase() ) {
                 ++this.hits;
                 this.computePercentage();
                 if (this.currentExercise.length == 1) {
@@ -83,7 +83,10 @@ angular.module('mecanography').controller('MainCtrl', ['$scope', '$http', 'listO
                     this.currentExercise = this.currentExercise.slice(1);
                 }
             }
-            else ++this.fails;
+            else {
+                console.log('not equals');
+                ++this.fails;
+            }
         };
 
 
@@ -151,6 +154,7 @@ angular.module('mecanography').controller('MainCtrl', ['$scope', '$http', 'listO
         $scope.finish = false;
         $scope.keyPress = function (event) {
             var id = event.which;
+            console.log('CODE IS ' + id);
             if(this.first){
                 $scope.startTimer();
                 this.first=false;
@@ -183,7 +187,6 @@ angular.module('mecanography').controller('MainCtrl', ['$scope', '$http', 'listO
 
         $scope.stopTimer = function () {
             $interval.cancel($scope.interval);
-        }
-
+        };
     }
 ]);

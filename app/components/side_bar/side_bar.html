@@ -1,4 +1,19 @@
 <div id="sidebar" class="list-group">
-    <li class="list-group-item sidebarItem text-primary" ng-click="updateLesson(item)" ng-repeat="item in sidebarItemService.sidebarItems">{{item}}
+
+    <li class="list-group-item sidebarItem text-primary" ng-click="goIntro()">
+        Intro
+    </li>
+
+
+    <li class="list-group-item sidebarItem text-primary" ng-click="goSettings()">
+        Settings
+    </li>
+
+    <li class="list-group-item sidebarItem text-primary" ng-click="goSettings()">
+        About
+    </li>
+
+
+    <li class="list-group-item sidebarItem text-primary" ng-click="updateLesson(item)" ng-repeat="item in sidebarItemService.sidebarLessonItems">{{item}}
     </li>
 </div>

@@ -8,7 +8,6 @@ const BrowserWindow = electron.BrowserWindow;
 
 const ipcMain = electron.ipcMain;
 
-
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 var mainWindow;
@@ -16,6 +15,7 @@ var mainWindow;
 function createWindow() {
     // Create the browser window.
     mainWindow = new BrowserWindow({frame: false, width: 800, height: 600});
+
 
     // and load the index.html of the app.
     mainWindow.loadURL('file://' + __dirname + '/index.html');
@@ -30,6 +30,26 @@ function createWindow() {
         // when you should delete the corresponding element.
         mainWindow = null;
     });
+
+
+    //??????
+    mainWindow.on('maximize', function () {
+        //Cambiar datos directiva
+        console.log('MAXIMIZED');
+    });
+
+    mainWindow.on('unmaximize', function () {
+        //Cambiar datos directiva
+        mainWindow.setProgressBar(0.5);
+        console.log('UNMAXMIZED');
+    });
+
+    mainWindow.on('minimize', function () {
+        //Cambiar datos directiva
+
+        console.log('MINIMIZE');
+    });
+
 }
 
 // This method will be called when Electron has finished
@@ -46,15 +66,26 @@ app.on('window-all-closed', function () {
 });
 
 
-ipcMain.on('quit',function(){
+
+ipcMain.on('quit', function () {
     app.quit();
 });
 
-ipcMain.on('minimize',function(){
+ipcMain.on('minimize', function () {
+    console.log('received minimize');
     mainWindow.minimize();
 });
 
+ipcMain.on('reload', function () {
+    mainWindow.loadURL('file://' + __dirname + '/index.html');
+});
+ipcMain.on('maximize', function () {
+    mainWindow.maximize();
+});
 
+ipcMain.on('unmaximize', function () {
+    mainWindow.unmaximize();
+});
 
 
 app.on('activate', function () {
